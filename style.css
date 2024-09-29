@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body,
+html {
+    height: 160vh;
+    width: 100vw;
+}
+
+#user {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    background-color: rgb(246, 221, 239);
+}
+
+#user #basic {
+    width: 75%;
+    height: 20%;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: #f1e6f0ab;
+    padding: .2%;
+    margin: 1%;
+    border-radius: 5rem;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+#user #basic table {
+    width: 60%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#user #all {
+    width: 95%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: .5rem;
+    background-color: #f1e6f0ab;
+    padding: 1% 2%;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+}
+
+#user #all .infor {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    gap: 1rem;
+    padding: .5%;
+}
+
+#user #all .infor .content {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 200;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#user #all .infor .content p{
+    text-align: center;
+}
+
+#user #all .infor .content .other{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:flex-start;
+    gap: 1rem;
+}
+
+#user #all .infor .content .other .med{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#user #all .infor li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap: .5rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#user #all .infor ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap: 2rem;
+}
+
+#user #all .infor ol li{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#user #all .infor ul li{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#user #all .infor .contact{
+    width:100%;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap: .5rem;
+}
+
+#user #all .infor .contact .text{
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap: .5rem;
+}
+
+#user #all .infor .contact .text .email{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#user #all .infor .contact .text p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#user #all .infor .contact .pic{
+    width: 45%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#user #all .infor .contact em{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#user #all .infor .end{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#user #all .infor .mes{
+    font-size: 18px;
+    font-weight: 200;
+}
