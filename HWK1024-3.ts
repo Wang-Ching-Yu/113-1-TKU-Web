@@ -6,6 +6,7 @@ function printMultiplicationTable(): void {
         // 印出當前的乘法表運算結果
         console.log(`${i} x ${j} = ${i * j}`);
       }
+      console.log(" ");
     }
   }
   

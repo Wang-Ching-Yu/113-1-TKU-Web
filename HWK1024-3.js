@@ -6,6 +6,7 @@ function printMultiplicationTable() {
             // 印出當前的乘法表運算結果
             console.log("".concat(i, " x ").concat(j, " = ").concat(i * j));
         }
+        console.log(" ");
     }
 }
 // 呼叫函數來列印九九乘法表
